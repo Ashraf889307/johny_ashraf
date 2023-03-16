@@ -39,11 +39,5 @@ class MyApp extends StatelessWidget {
         routes:
         {
           RegisterScreen.idScreen: (context) => RegisterScreen(),
-          LoginScreen.idScreen: (context) => LoginScreen(),
-          MainScreen.idScreen: (context) => MainScreen(),
-          AllowLocation.idScreen: (context) => AllowLocation(),
-        },
-      ),
-    );
-  }
+
 }
