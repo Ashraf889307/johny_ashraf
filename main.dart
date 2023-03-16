@@ -18,11 +18,7 @@ void main() async {
 
 
 
-DatabaseReference driverRef =
-    FirebaseDatabase.instance.reference().child('drivers');
 
-class MyApp extends StatelessWidget {
-  @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => AppData(),
