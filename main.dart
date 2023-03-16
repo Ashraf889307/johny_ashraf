@@ -27,11 +27,6 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => AppData(),
       child: MaterialApp(
-        uth.instance.currentUser == null
-            ? AllowLocation.idScreen
-            : MainScreen.idScreen,
-        routes:
-        {
-          RegisterScreen.idScreen: (context) => RegisterScreen(),
+       
 
 }
