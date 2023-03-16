@@ -27,13 +27,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => AppData(),
       child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'aaaa',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: LoginScreen(),
-        initialRoute: FirebaseAuth.instance.currentUser == null
+        uth.instance.currentUser == null
             ? AllowLocation.idScreen
             : MainScreen.idScreen,
         routes:
